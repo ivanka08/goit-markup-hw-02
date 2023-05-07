@@ -85,6 +85,7 @@ body {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: var(--accent-color-text);
+    cursor: pointer;
 }
 
 .button:hover,
@@ -152,6 +153,50 @@ body {
     letter-spacing: 0.02em;
     color: var(--main-color-text);
 }
+
+
+/* Portfolio-main */
+
+.portfolio-filter {
+    background: #F4F4FD;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--accent-color-text);
+    cursor: pointer;
+}
+
+.portfolio-filter:hover, 
+.portfolio-filter:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.examples-item {
+    border: 1px solid #E7E9FC;
+}
+
+.examles-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--second-color-text);
+}
+
+.examples-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-color-text)
+}
+
 
 /* =================================== FOOTER =========================================*/
 
