@@ -8,6 +8,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: var(--main-color-text);
+    background-color: #FFFFFF;
 }
 
 .list {
@@ -17,23 +18,23 @@ body {
 .link {
     text-decoration: none;
 }
-.contacts {
+.address {
     font-style: normal;
 }
 
 /* ====================================== HEADER =========================================== */
 .logo {
     font-family: 'Raleway', sans-serif;
-    color: var(--second-color-text) ;
+    color: var(--accent-color-text);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .logo-part {
-    color: var(--accent-color-text);
+    color: var(--second-color-text);
 }
 
 .menu-nav {
