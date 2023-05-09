@@ -111,7 +111,7 @@ body {
 }
 
 .wawd-title {
-    color: var(--second-accent-color-text);
+    color: var(--second-color-text);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
