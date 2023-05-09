@@ -1,5 +1,6 @@
 :root {
     --accent-color-text: #4D5AE5;
+    --second-accent-color-text: #404BBF;
     --main-color-text: #434455;
     --second-color-text: #2E2F42;
 }
@@ -18,7 +19,7 @@ body {
 .link {
     text-decoration: none;
 }
-.address {
+.contacts {
     font-style: normal;
 }
 
@@ -46,7 +47,7 @@ body {
 
 .menu-nav:hover,
 .menu-nav:focus {
-    color: var(--accent-color-text);
+    color: var(--second-accent-color-text);
 }
 
 .contact-item {
@@ -58,7 +59,7 @@ body {
 
 .contact-item:hover,
 .contact-item:focus {
-    color: var(--accent-color-text);
+    color: var(--second-accent-color-text);
 }
 
 /* ===================================== MAIN ===================================*/
@@ -91,7 +92,7 @@ body {
 
 .button:hover,
 .button:focus {
-    background-color: #404BBF;
+    background-color: var(--second-accent-color-text);
 }
 
 .features-title {
@@ -174,7 +175,7 @@ body {
 
 .portfolio-filter:hover, 
 .portfolio-filter:focus {
-    background-color: #404BBF;
+    background-color: var(--second-accent-color-text);
     color: #FFFFFF;
 }
 
